@@ -1,0 +1,36 @@
+.description h1 {
+    color: rgb(81, 81, 192);
+}
+.description h1::after {
+content:"";
+width: 15%;
+height: 5px;
+padding-top: 10px;
+border-bottom: 5px solid orange;
+display: table;
+}
+.description p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+    line-height: 1.6em;
+}
+.description i {
+    font-size:40px;
+}
+.description span {
+    margin: 0 0 0 30px;
+    font-size: 25px;
+}
+.description button {
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+    background-color: rgb(81, 81, 192);
+    color: #fff;
+    border-radius: 0 !important;
+}
+.description .btn i {
+    padding: 0 10px;
+}
